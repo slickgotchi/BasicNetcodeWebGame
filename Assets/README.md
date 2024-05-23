@@ -7,7 +7,7 @@
 - Client Config: Web build deployed/served on a local https instance
 
 ## Bug/Error
-When connecting to a unity server instance of a game, the web client has two errors in the browser inspector console log.
+When connecting to a unity server instance of a game, the web client has two errors in the browsers inspector console log.
 
 ```
 NotSupportedException: To marshal a managed method, please add an attribute named 'MonoPInvokeCallback' 
@@ -33,6 +33,6 @@ the game then disconnects.
 3. Navigate to the folder BasicNetcodeWebGame/Builds/Client in your terminal and run the following command
 ```serve -s -l 3000 --ssl-cert server.cert --ssl-key server.key```
 4. You can now open a browser and navigate to https://localhost:3000
-5. Hit "Client" in the web build of the browser
-6. A blue circle player should be appearing but instead we get the previously mentioned errors in the console log of the browser inspector
+5. Hit "Client" button in the web build of the browser
+6. A blue circle player should be appearing but instead we get the previously mentioned errors in the inspector console
 7. If running additional client builds do not delete the server.crt, server.key abd server,csr files
